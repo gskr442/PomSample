@@ -1,0 +1,8 @@
+com\utest\testngListeners\MyTransformer.class
+com\utest\testBase\Base.class
+com\utest\testngListeners\MyRetryAnalyzer.class
+com\utest\logs4j\Log4jResource.class
+com\utest\excelDataReader\ExcelDataReader.class
+com\utest\pages\RegistrationPage.class
+com\utest\pages\LoginPage.class
+com\utest\testngListeners\TestNGListeners.class

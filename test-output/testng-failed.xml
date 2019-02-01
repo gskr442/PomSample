@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity Suite]">
+  <listeners>
+    <listener class-name="com.utest.testngListeners.TestNGListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.utest.tests.TC002_LoginToApplicationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginToApplication"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.utest.tests.TC002_LoginToApplicationTest -->
+      <class name="com.utest.tests.TC001_RegistrationTest">
+        <methods>
+          <include name="registrationTest"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.utest.tests.TC001_RegistrationTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->

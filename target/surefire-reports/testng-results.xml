@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="76797" started-at="2019-01-30T12:45:28Z" finished-at="2019-01-30T12:46:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="76797" started-at="2019-01-30T12:45:28Z" finished-at="2019-01-30T12:46:45Z">
+      <class name="com.utest.tests.TC002_LoginToApplicationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.utest.tests.TC002_LoginToApplicationTest@1936f0f5]" name="setUp" is-config="true" duration-ms="22821" started-at="2019-01-30T12:46:05Z" finished-at="2019-01-30T12:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginToApplication()[pri:0, instance:com.utest.tests.TC002_LoginToApplicationTest@1936f0f5]" name="LoginToApplication" duration-ms="13982" started-at="2019-01-30T12:46:28Z" finished-at="2019-01-30T12:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:com.utest.tests.TC002_LoginToApplicationTest@1936f0f5]" name="closeBrowser" is-config="true" duration-ms="3047" started-at="2019-01-30T12:46:42Z" finished-at="2019-01-30T12:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.utest.tests.TC002_LoginToApplicationTest.LoginToApplication() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.utest.tests.TC002_LoginToApplicationTest -->
+      <class name="com.utest.tests.TC001_RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.utest.tests.TC001_RegistrationTest@6b143ee9]" name="setUp" is-config="true" duration-ms="23759" started-at="2019-01-30T12:45:28Z" finished-at="2019-01-30T12:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registrationTest()[pri:0, instance:com.utest.tests.TC001_RegistrationTest@6b143ee9]" name="registrationTest" duration-ms="12093" started-at="2019-01-30T12:45:52Z" finished-at="2019-01-30T12:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:com.utest.tests.TC001_RegistrationTest@6b143ee9]" name="closeBrowser" is-config="true" duration-ms="1071" started-at="2019-01-30T12:46:04Z" finished-at="2019-01-30T12:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.utest.tests.TC001_RegistrationTest.registrationTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.utest.tests.TC001_RegistrationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
